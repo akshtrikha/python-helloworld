@@ -25,6 +25,7 @@ jobs:
         with:
           tags: action/docker:demo
           context: .
+          push: true
       -
         name: Inspect
         run:  |
